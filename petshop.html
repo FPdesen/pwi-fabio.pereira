@@ -1,10 +1,114 @@
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Petshop</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            height: 166px;
+            padding-top: 20px;
+            border: 0px solid;
+            background-color: aqua;
+        }
+
+        #topo {
+            text-align: center;
+        }
+
+        #menu ul {
+            background: rgb(36, 5, 36);
+            text-align: center;
+            margin-top: 25px;
+            font-size: 0.9em;
+            padding: 0.5em 1.5em;
+
+        }
+
+        #menu ul a {
+            font-size: 1.5em;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 15px;
+            text-decoration: none;
+            line-height: 2.1em
+        }
+
+        .conteudo1{
+            text-align: center;
+            margin: auto;
+        } 
+
+        .conteudo1 p {
+            font-family: fantasy;
+            overflow: auto;
+        }
+    </style>
 </head>
+
 <body>
+    <div id="container">
+        <header>
+            <div id="topo">
+                <h1>Bem-Vindo ao Petshop</h1>
+                <h2>Encontre aqui tudo que seu pet precise</h2>
+            </div>
+            <div id="menu">
+                <ul>
+                    <a href="produtos.html">Produtos</a>
+                    <a href="servicos.html">Serviços</a>
+                    <a href="Contato.html">Contato</a>
+                    <a href="sobre.html">Sobre Nós</a>
+                </ul>
+            </div>
+        </header>
+        <div class="conteudo1"><br>
+            <h1>Produtos</h1>
+            <p>Raçaõ de Cachorro R$ 19,99</p>
+            <p>Bifinho de Cachorro R$ 5,99</p>
+            <p>brinquedo para Cachorro R$ 7,99</p><br><br><br>
+
+            <h1>Serviços</h1>
+            <p>Banho e Tosa</p>
+            <p>Clínica Veterinária</p>
+            <p>Vacinação</p><br><br><br>
+
+            <h1>Contato</h1><br>
+            <form>
+                <label for="fname">Nome</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Sobrenome</label><br>
+                <input type="text" id="lname" name="lname">
+            </form><br>
+
+            <label for="email">Digite seu Email:</label>
+            <input type="email" id="email" name="email"><br><br><br>
+
+            <H1>Sobre Nós</H1><br>
+            <p>Oferecemos os melhores condiçoes acolhedoras, merecidas e divertidas
+                para o seu animalzinho.Também temos como prioridade a saúde dos pets e poder
+                trata-los em algum caso de problemas de saúde.
+                Conte conosco pelo melhor de seu animalzinho.
+                
+                Oferecemos os melhores condiçoes acolhedoras, merecidas e divertidas
+                    para o seu animalzinho.Também temos como prioridade a saúde dos pets e poder
+                    trata-los em algum caso de problemas de saúde.
+                    Conte conosco pelo melhor de seu animalzinho.
     
+                Oferecemos os melhores condiçoes acolhedoras, merecidas e divertidas
+                    para o seu animalzinho.Também temos como prioridade a saúde dos pets e poder
+                    trata-los em algum caso de problemas de saúde.
+                    Conte conosco pelo melhor de seu animalzinho.</p>
+                
+            
+
+        </div>
+    </div>
 </body>
+
 </html>
